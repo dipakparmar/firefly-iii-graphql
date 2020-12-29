@@ -1,0 +1,20 @@
+{
+  "name": "firefly-iii-graphql",
+  "version": "0.1.0",
+  "description": "firefly-iii graphql api ",
+  "main": "index.js",
+  "repository": "git@github.com:dipakparmar/firefly-iii-graphql.git",
+  "author": "Dipak Parmar <hi@dipak.tech>",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "graphql-yoga": "^1.18.3",
+    "openapi-to-graphql": "^1.3.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
