@@ -1,0 +1,7 @@
+version: "2"
+services:
+  gen-swagger:
+    volumes:
+      - ./:/docs
+    image: swaggerapi/swagger-codegen-cli
+    command: generate -i /docs/firefly-iii-0.10.4.yaml -l swagger -o /docs
